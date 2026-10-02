@@ -26,3 +26,9 @@ footer { text-align: center; padding: 1.5rem; background-color: var(--dark-ash);
 .contact-card h3 { color: var(--primary-orange); margin-bottom: 10px; }
 .contact-card a { color: var(--white); text-decoration: none; font-weight: bold; font-size: 1.1rem; }
 .contact-card a:hover { text-decoration: underline; }
+ @media screen and (max-width: 768px) {
+    nav ul { flex-direction: column; gap: 0.5rem; }
+    .header-banner { padding: 2rem 1rem; }
+    .container { margin: 2rem 1rem; padding: 1.5rem; }
+    
+ }

@@ -24,3 +24,9 @@ footer { text-align: center; padding: 1.5rem; background-color: var(--dark-ash);
 .clients-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; }
 .client-badge { background: var(--dark-ash); color: var(--white); padding: 20px; text-align: center; border-radius: 50px; font-weight: bold; border: 3px solid var(--primary-orange); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
 .client-badge:hover { background: var(--primary-orange); color: var(--white); border-color: var(--dark-ash); }
+ @media screen and (max-width: 768px) {
+    nav ul { flex-direction: column; gap: 0.5rem; }
+    .header-banner { padding: 2rem 1rem; }
+    .container { margin: 2rem 1rem; padding: 1.5rem; }
+    
+ }

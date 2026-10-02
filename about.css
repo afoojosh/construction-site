@@ -28,3 +28,9 @@ footer { text-align: center; padding: 1.5rem; background-color: var(--dark-ash);
 .core-values { list-style: none; padding: 0; }
 .core-values li { padding: 12px 0; border-bottom: 1px solid #ccc; line-height: 1.8; }
 .core-values li strong { color: var(--primary-orange); display: inline-block; width: 170px; }
+ @media screen and (max-width: 768px) {
+    nav ul { flex-direction: column; gap: 0.5rem; }
+    .header-banner { padding: 2rem 1rem; }
+    .container { margin: 2rem 1rem; padding: 1.5rem; }
+    
+ }

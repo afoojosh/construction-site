@@ -26,3 +26,9 @@ footer { text-align: center; padding: 1.5rem; background-color: var(--dark-ash);
 .cta-box { text-align: center; margin-top: 3rem; padding: 2rem; background: var(--dark-ash); color: var(--white); border-radius: 8px; }
 .btn { display: inline-block; margin-top: 15px; background: var(--primary-orange); color: var(--white); padding: 12px 24px; text-decoration: none; font-weight: bold; border-radius: 4px; transition: background 0.3s; }
 .btn:hover { background: var(--white); color: var(--primary-orange); }
+ @media screen and (max-width: 768px) {
+    nav ul { flex-direction: column; gap: 0.5rem; }
+    .header-banner { padding: 2rem 1rem; }
+    .container { margin: 2rem 1rem; padding: 1.5rem; }
+    
+ }

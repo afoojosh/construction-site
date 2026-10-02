@@ -24,3 +24,9 @@ footer { text-align: center; padding: 1.5rem; background-color: var(--dark-ash);
 .checklist { display: flex; flex-direction: column; gap: 15px; font-size: 1.1rem; }
 .checklist div { background: var(--light-ash); padding: 15px 20px; border-radius: 4px; display: flex; align-items: center; gap: 15px; font-weight: bold; }
 .checklist span { color: var(--white); background: var(--primary-orange); border-radius: 50%; width: 30px; height: 30px; display: flex; align-items: center; justify-content: center; flex: 0 0 auto; }
+ @media screen and (max-width: 768px) {
+    nav ul { flex-direction: column; gap: 0.5rem; }
+    .header-banner { padding: 2rem 1rem; }
+    .container { margin: 2rem 1rem; padding: 1.5rem; }
+    
+ }
